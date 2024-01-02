@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/skorotkiewicz/rmatch/issues"
   },
-  "homepage": "https://skorotkiewicz.github.io/rmatch/",
+  "homepage": "https://github.com/skorotkiewicz/rmatch#rmatch",
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
