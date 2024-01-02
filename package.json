@@ -1,6 +1,6 @@
 {
   "name": "@skorotkiewicz/rmatch",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility function inspired by Rust's match for pattern matching in JavaScript/TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
