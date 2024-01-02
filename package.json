@@ -1,0 +1,36 @@
+{
+  "name": "@skorotkiewicz/rmatch",
+  "version": "1.0.0",
+  "description": "A utility function inspired by Rust's match for pattern matching in JavaScript/TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Sebastian Korotkiewicz",
+  "license": "MIT",
+  "keywords": [
+    "match",
+    "rmatch",
+    "javascript",
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skorotkiewicz/rmatch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skorotkiewicz/rmatch/issues"
+  },
+  "homepage": "https://skorotkiewicz.github.io/rmatch/",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "tsc && npm run test"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.6",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}

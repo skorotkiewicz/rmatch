@@ -1,0 +1,9 @@
+tests/
+jest.config.js
+yarn-*.log
+.prettierrc
+coverage
+docs
+.jsdoc.json
+.github
+tmp
