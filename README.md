@@ -5,20 +5,20 @@ A utility function inspired by Rust's match for pattern matching in JavaScript/T
 ## Installation
 
 ```bash
-npm install rmatch
+npm install @skorotkiewicz/rmatch
 # or
-yarn add rmatch
+yarn add @skorotkiewicz/rmatch
 ```
 
 ## Usage
 
 ```js
-// const { match } = require("rmatch");
-import { match } from "rmatch";
+// const { match } = require("@skorotkiewicz/rmatch");
+import { rmatch } from "@skorotkiewicz/rmatch";
 
 // Example usage:
 let age = 8;
-match(age, [
+rmatch(age, [
   [(val) => val >= 1 && val <= 18, () => console.log("Important Birthday")],
   [(val) => val === 21 || val === 50, () => console.log("Important Birthday")],
   [
@@ -31,7 +31,7 @@ match(age, [
 
 ## API
 
-`match(value, patterns)`
+`rmatch(value, patterns)`
 
 - `value`: The value to be matched against patterns.
 - `patterns`: An array of patterns, where each pattern is a tuple of two elements:
